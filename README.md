@@ -1,1 +1,1 @@
-# CS-Reddit
+# CodeSwitch-Reddit
