@@ -1,11 +1,11 @@
 # CodeSwitch-Reddit
 
-CodeSwitch Reddit corpus collection and processing is described in the paper:
-"CodeSwitch-Reddit: Exploration of Written Multilingual Discourse in Online Discussion Forums" Rabinovich et al., 2019
+CodeSwitch Reddit corpus collection, processing and analysis is described in the paper:
+"CodeSwitch-Reddit: Exploration of Written Multilingual Discourse in Online Discussion Forums", Rabinovich et al., 2019
 
-The full dataset is available at http://www.cs.toronto.edu/~ella/code-switch.reddit.tar.gz
+The full dataset is available at http://www.cs.toronto.edu/~ella/code-switch.reddit.tar.gz.
 
-cs_main_reddit_corpus.csv: main dataset comprising English-{Tagalog, Greek, Romanian, Indonesian, Russian} code-switched posts.
+cs_main_reddit_corpus.csv: the main dataset comprising English-{Tagalog, Greek, Romanian, Indonesian, Russian} accurately detected code-switched posts.
 
 cs_additional_reddit_corpus.csv: additional dataset comprising English-{Spanish, Turkish, Arabic, Croatian, Albanian} code-switched posts. Despite its lower (true code-switching) accuracy, we recognize the potential usefulness of this additional data, and release it as an addendum to our main corpus, for possible further cleanup and preprocessing.
 
