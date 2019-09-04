@@ -1,7 +1,7 @@
 ## CodeSwitch-Reddit
 
 CodeSwitch-Reddit corpus collection, pre-processing and analysis is described in the paper:\
-"CodeSwitch-Reddit: Exploration of Written Multilingual Discourse in Online Discussion Forums", Rabinovich et al., 2019.
+[CodeSwitch-Reddit: Exploration of Written Multilingual Discourse in Online Discussion Forums](https://arxiv.org/abs/1908.11841), Rabinovich et al., 2019.
 
 The full dataset is available at http://www.cs.toronto.edu/~ella/code-switch.reddit.tar.gz.
 
