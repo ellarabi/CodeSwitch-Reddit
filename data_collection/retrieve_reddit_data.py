@@ -5,6 +5,7 @@ import json
 import pandas as pd
 import spacy
 import multiprocessing as mp
+from pathlib import Path
 
 
 def has_text(element):
@@ -33,8 +34,9 @@ def crawl_subreddit_data(subreddit_name, retrieval_type='comment'):
     today_timestamp = int((today - datetime.datetime(1970, 1, 1)).total_seconds())
     before_date = today_timestamp
     previous_time = before_date
-
-    with open("<output file location>" + subreddit_name + '.' + retrieval_type + '.json.out', 'w') as fout:
+    out_folder = Path(f"/ais/hal9000/masih/codeswitch/allposts/")
+    out_file = out_folder / f"{subreddit_name}.{retrieval_type}.json.out"
+    with open(out_file, 'w') as fout:
         count = 0
         done = False
         while not done:
